@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:700,300,300italic);
+body {
+	
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight:300;
+	line-height:150%;
+	color:#333;
+	background-color:#C5EAEF;
+	margin:0;
+}
+
+section {
+ background-color:white;
+	padding:1em;
+	margin:1em 0;
+	-webkit-box-shadow: 3px 4px 11px -4px rgba(138,138,138,1);
+-moz-box-shadow: 3px 4px 11px -4px rgba(138,138,138,1);
+box-shadow: 3px 4px 11px -4px rgba(138,138,138,1);
+
+
+}
+.recipe-container {
+	width:60%;
+	margin:auto;
+}
+
+h1 {
+	text-align:center;
+	font-size:3em;
+	color:#29B5C5;
+}
+
+h2 {
+	color:#666;
+}
+
+h1, h2{
+	font-family: 'Roboto Slab', serif;
+
+}
+
+a {
+	color:#29B5C5;
+	text-decoration:none;
+	font-weight:bold;
+}
+ul {
+	list-style-type: square;
+}
+
+li {
+	cursor:pointer;
+}
+
+li:hover {
+  
+	opacity:.8;
+}
+a:hover {
+	opacity:.8;
+	    -webkit-transition: opacity ease-in-out .3s;
+    -o-transition: opacity ease-in-out .3s;
+    transition: opacity ease-in-out .3s;
+}
+.slogan {
+	text-align:center;
+	font-style:italic;
+	font-size:2em;
+	color:#dbdbdb;
+}
+
+.right {
+	text-align:right;
+}
+
+.ingredients {
+	width:35%;
+	float:left;
+}
+
+.directions {
+	width:50%;
+	float:right;
+}
+
+.heading img {
+	border-radius:100%;
+	border:10px solid white;
+    -webkit-transition: transform ease-in-out .3s,;
+    -o-transition: transform ease-in-out .3s,;
+    transition: transform ease-in-out .3s,;
+}
+
+.heading img:hover {
+	
+    -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+    -webkit-transition: transform ease-in-out 1s,;
+    -o-transition: transform ease-in-out 1s,;
+    transition: transform ease-in-out 1s,;
+}
+
+
+.hide-photos {
+	width:10em;
+	text-align: center;
+	border-radius:3px;
+	background-color:#dedede;
+	color:white;
+	border:none;
+	float:right;
+	padding:5px;
+	font-size:1em;
+		font-family: 'Roboto Slab', serif;
+			    -webkit-transition: background-color ease-in-out .1s;
+    -o-transition: background-color ease-in-out .1s;
+    transition: background-color ease-in-out .1s;
+    -webkit-appearance:none;
+
+
+}
+
+.hide-photos:hover {
+cursor: pointer;
+	background-color:#b5b5b5;
+		    -webkit-transition: background-color ease-in-out .1s;
+    -o-transition: background-color ease-in-out .1s;
+    transition: background-color ease-in-out .1s;
+}
+.step-img {
+
+	width:100%;
+}
+
+
+
+.check {
+	width:16px;
+	display:inline-block;
+}
+
+.checked {
+	font-weight:bold;
+	list-style-image: url(images/checkmark.png);
+}
+
+.steps {
+	cursor:pointer;
+}
+
+.strike {
+	text-decoration:line-through;
+}
+@media (max-width: 1167px) {
+.recipe-container {
+
+	width:70%;
+}
+  }
+
+  @media (max-width: 1167px) {
+.recipe-container {
+
+	width:80%;
+}
+
+h1 {
+	line-height:100%;
+}
+  }
+
+
+  @media (max-width: 875px) {
+.recipe-container {
+
+	width:80%;
+}
+
+.ingredients {
+	box-sizing:border-box;
+	width:100%;
+	float:none;
+
+}
+
+.directions {
+	width:100%;
+		box-sizing:border-box;
+
+	float:none;
+}
+  }
+
+  @media (max-width: 875px) {
+.recipe-container {
+
+	width:90%;
+}
+
+  }
