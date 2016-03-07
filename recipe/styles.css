@@ -87,21 +87,19 @@ a:hover {
 .heading img {
 	border-radius:100%;
 	border:10px solid white;
-    -webkit-transition: transform ease-in-out .3s,;
-    -o-transition: transform ease-in-out .3s,;
-    transition: transform ease-in-out .3s,;
+  
+     transform: rotate(0deg);
+    transition: transform ease-in-out .3s;
+    -webkit-transition: -webkit-transform ease-in-out .3s;
 }
 
 .heading img:hover {
 	
-    -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  transform: rotate(360deg);
-    -webkit-transition: transform ease-in-out 1s,;
-    -o-transition: transform ease-in-out 1s,;
-    transition: transform ease-in-out 1s,;
+
+    transform: rotate(360deg);
+    transition: transform ease-in-out .3s;
+    -webkit-transition: -webkit-transform ease-in-out .3s;
+
 }
 
 
